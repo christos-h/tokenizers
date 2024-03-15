@@ -69,7 +69,7 @@ default = ["progressbar", "onig", "esaxx_fast"]
 esaxx_fast = ["esaxx-rs/cpp"]
 progressbar = ["indicatif"]
 http = ["hf-hub"]
-unstable_wasm = ["fancy-regex", "getrandom/js"]
+unstable_wasm = ["fancy-regex"]
 
 [dev-dependencies]
 criterion = "0.5"
